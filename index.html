@@ -5,18 +5,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejemplo Booststrap</title>
-        <!-- Latest compiled and minified CSS desde el pc -->
-        <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Latest compiled and minified CSS desde el pc -->
+    <link href="css/bootstrap.css" rel="stylesheet">
 
-        <!-- Latest compiled JavaScript desde el pc-->
-        <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Latest compiled JavaScript desde el pc-->
+    <script src="js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
-    <div class="mt-4 p-5 bg-primary text-white rounded">
-        <h1>Este es un ejemplo de Bootstrap</h1>
-        <p>Esto es muy fácil...</p>
+    <div class="container-fluid">
+        <div class="mt-4 p-5 bg-primary text-white rounded">
+            <h1>Este es un ejemplo de Bootstrap</h1>
+            <p>Esto es muy fácil...</p>
+    </div>
+    <div></div>
+    <div class="row justify-content-center align-items-center g-2">
+        <div class="col-sm-4 bg-success">Column</div>
+        <div class="col-sm-4 bg-warning">Column</div>
+        <div class="col-sm-4 bg-danger">Column</div>
+    </div>
+    <table class="table">
+        <thead>
+          <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>john@example.com</td>
+          </tr>
+          <tr>
+            <td>Mary</td>
+            <td>Moe</td>
+            <td>mary@example.com</td>
+          </tr>
+          <tr>
+            <td>July</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="card" style="width:400px">
+        <div class="card-body">
+          <h4 class="card-title">Matias Araneda</h4>
+          <p class="card-text">Captado comiendo sandía,en su dia con mayor motiación</p>
+          <a href="#" class="btn btn-primary">See Profile</a>
+        </div>
+        <img class="card-img-bottom" src="img/pikachucomiendo.jpg" alt="Card image" style="width:100%">
       </div>
+    </div>
 </body>
 
 </html>
